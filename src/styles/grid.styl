@@ -1,0 +1,21 @@
+@import '~s-grid/s-grid-functions';
+@import '~s-grid/s-grid-classes';
+
+// General Places
+section{
+  width: 100%;
+
+}
+.container{
+  width: 100%;
+}
+.row{
+  &:before {
+    content: '';
+    clearfix();
+  }
+  &:after {
+    content: '';
+    clearfix();
+  }
+}
